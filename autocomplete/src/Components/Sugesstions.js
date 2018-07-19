@@ -11,7 +11,7 @@ class Suggestions extends Component {
     });
     return result.map((data, index) => {
         return(
-          <li key={index}>{data}</li>
+          <li key={data+index}>{data}</li>
         )
     })
   }
